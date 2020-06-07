@@ -1,0 +1,33 @@
+/* Referencia a raiz do documento html, e por aqui eu 
+posso colocar referências através de variáveis */
+:root{
+    --title-color: #322153;
+    --primary-color: #34CD79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    /*  O tamanho da caixa vai ser até a borda.
+        Por padeão seria o conteúdo da caixa */
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #F0F0F5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
